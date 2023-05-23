@@ -15,6 +15,7 @@
 		7808D3942A0BC7E300C655C1 /* DummyJsonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808D3932A0BC7E300C655C1 /* DummyJsonAppUITests.swift */; };
 		7808D3962A0BC7E300C655C1 /* DummyJsonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808D3952A0BC7E300C655C1 /* DummyJsonAppUITestsLaunchTests.swift */; };
 		7808D3A42A0BC8F000C655C1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7808D3A32A0BC8F000C655C1 /* Alamofire */; };
+		78698CC02A1D016300BE56B9 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78698CBF2A1D016300BE56B9 /* AddUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7808D38F2A0BC7E300C655C1 /* DummyJsonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyJsonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7808D3932A0BC7E300C655C1 /* DummyJsonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyJsonAppUITests.swift; sourceTree = "<group>"; };
 		7808D3952A0BC7E300C655C1 /* DummyJsonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyJsonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78698CBF2A1D016300BE56B9 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7808D37A2A0BC7E200C655C1 /* ContentView.swift */,
 				7808D37C2A0BC7E300C655C1 /* Assets.xcassets */,
 				7808D37E2A0BC7E300C655C1 /* Preview Content */,
+				78698CBF2A1D016300BE56B9 /* AddUserView.swift */,
 			);
 			path = DummyJsonApp;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				7808D37B2A0BC7E200C655C1 /* ContentView.swift in Sources */,
 				7808D3792A0BC7E200C655C1 /* DummyJsonAppApp.swift in Sources */,
+				78698CC02A1D016300BE56B9 /* AddUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
