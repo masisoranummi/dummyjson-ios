@@ -16,6 +16,11 @@
 		7808D3962A0BC7E300C655C1 /* DummyJsonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808D3952A0BC7E300C655C1 /* DummyJsonAppUITestsLaunchTests.swift */; };
 		7808D3A42A0BC8F000C655C1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7808D3A32A0BC8F000C655C1 /* Alamofire */; };
 		78698CC02A1D016300BE56B9 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78698CBF2A1D016300BE56B9 /* AddUserView.swift */; };
+		788B69422A24C9CF006D78BC /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B69412A24C9CF006D78BC /* UserCard.swift */; };
+		788B69442A24CA1C006D78BC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B69432A24CA1C006D78BC /* Data.swift */; };
+		788B69462A24CA5E006D78BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B69452A24CA5E006D78BC /* User.swift */; };
+		788B69482A24CAF4006D78BC /* SearchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B69472A24CAF4006D78BC /* SearchUserView.swift */; };
+		788B694A2A24D801006D78BC /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B69492A24D801006D78BC /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		7808D3932A0BC7E300C655C1 /* DummyJsonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyJsonAppUITests.swift; sourceTree = "<group>"; };
 		7808D3952A0BC7E300C655C1 /* DummyJsonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyJsonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78698CBF2A1D016300BE56B9 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		788B69412A24C9CF006D78BC /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		788B69432A24CA1C006D78BC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		788B69452A24CA5E006D78BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		788B69472A24CAF4006D78BC /* SearchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserView.swift; sourceTree = "<group>"; };
+		788B69492A24D801006D78BC /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				7808D37C2A0BC7E300C655C1 /* Assets.xcassets */,
 				7808D37E2A0BC7E300C655C1 /* Preview Content */,
 				78698CBF2A1D016300BE56B9 /* AddUserView.swift */,
+				788B69412A24C9CF006D78BC /* UserCard.swift */,
+				788B69432A24CA1C006D78BC /* Data.swift */,
+				788B69452A24CA5E006D78BC /* User.swift */,
+				788B69472A24CAF4006D78BC /* SearchUserView.swift */,
+				788B69492A24D801006D78BC /* NetWorkManager.swift */,
 			);
 			path = DummyJsonApp;
 			sourceTree = "<group>";
@@ -269,7 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7808D37B2A0BC7E200C655C1 /* ContentView.swift in Sources */,
+				788B69442A24CA1C006D78BC /* Data.swift in Sources */,
+				788B69462A24CA5E006D78BC /* User.swift in Sources */,
 				7808D3792A0BC7E200C655C1 /* DummyJsonAppApp.swift in Sources */,
+				788B694A2A24D801006D78BC /* NetWorkManager.swift in Sources */,
+				788B69422A24C9CF006D78BC /* UserCard.swift in Sources */,
+				788B69482A24CAF4006D78BC /* SearchUserView.swift in Sources */,
 				78698CC02A1D016300BE56B9 /* AddUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

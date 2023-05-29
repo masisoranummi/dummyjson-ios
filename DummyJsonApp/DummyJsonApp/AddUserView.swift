@@ -7,14 +7,25 @@
 
 import SwiftUI
 
+/// A view for adding users.
 struct AddUserView: View {
     
+    /// The first name of the user.
     @State var firstName = ""
+    
+    /// The last name of the user.
     @State var lastName = ""
+    
+    /// The email address of the user.
     @State var email = ""
+    
+    /// The phone number of the user.
     @State var phone = ""
     
+    /// Indicates whether the add window is currently active.
     @Binding var isAdding: Bool
+    
+    /// Closure to be called when pressing the "add user" button.
     var onAdd: (String, String, String, String) -> Void
     
     var body: some View { 
