@@ -1,4 +1,4 @@
-# Dummy Json Project for iOs
+# Dummy Json Project for iOS
 A basic application for fetching dummy user data from https://dummyjson.com/docs/users and deleting, editing or adding to that data. I used Alamofire for http requests, and Codable for parsing JSON.
 ## Motivation
 The project was a part of a native mobile development course. The idea was to create a similar application for Android and iOS. Android was the main version for this project.
