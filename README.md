@@ -15,6 +15,6 @@ Application gets all users when the application is started and after adding or d
 ### Deleting users
 You can delete users by pressing on the trash can icon on each users card.
 ## ScreenCast
-The screencast is mainly focused on the android project, here's the link: 
+https://www.youtube.com/watch?v=omet3phY7ak (Finnish)
 ## Final thoughts
 I tried to keep this project similar in functionality with the Android version, without the editing functionality. I'm mostly happy with how the UI turned out, but I do think it looks worse than the Android version. XCode was generally easier to work with than Android Studio, but there were some stuff I wwasn't able to make look as nice as I would've liked, like the text on the usercards. Overall, I'm pretty happy with how it turned out.
